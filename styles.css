@@ -11,9 +11,7 @@ body {
   align-items: center;
   min-height: 100vh;
 }
-div {
-  display:flex;
-}
+
 .date {
   font-size: 35px;
   color: rgb(18, 14, 75);
@@ -31,10 +29,14 @@ div {
   justify-content: end;
   margin-left: auto;
 }
-.login-input {
+.user {
+  margin: 1rem;
+}
+input {
   background: transparent;
   width: 200px;
   height: 30px;
+  margin: 10px;
 }
 span {
   font-size: 30px;
@@ -48,4 +50,11 @@ button {
   height: 20px;
   margin-top: auto;
   margin-bottom: auto;
+}
+li {
+  list-style-position: inside;
+  list-style-type: square;
+  margin-left: 10px;
+  font-weight: bold;
+  
 }
