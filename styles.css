@@ -1,0 +1,51 @@
+* {
+  margin:0; 
+  padding:0; 
+  box-sizing:border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  min-height: 100vh;
+}
+div {
+  display:flex;
+}
+.date {
+  font-size: 35px;
+  color: rgb(18, 14, 75);
+  margin: 0.5rem;
+}
+.time {
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(179, 21, 171);
+  
+}
+.login {
+  margin: 1rem;
+  align-items: flex-end;
+  justify-content: end;
+  margin-left: auto;
+}
+.login-input {
+  background: transparent;
+  width: 200px;
+  height: 30px;
+}
+span {
+  font-size: 30px;
+}
+.hidden {
+  visibility: hidden;
+}
+button {
+  background: transparent;
+  margin-left: 15px;
+  height: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
